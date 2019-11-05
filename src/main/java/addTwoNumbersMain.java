@@ -18,10 +18,14 @@ public class addTwoNumbersMain {
     public static class ListNode {
         int val;
         ListNode next;
+        //构造方法
         ListNode(int x) {
             val = x;
+
         }
     }
+
+
 
     public static ListNode addTwoNumbers(ListNode l1,ListNode l2){
 
@@ -49,16 +53,13 @@ public class addTwoNumbersMain {
     }
 
     public static void main(String[] args) {
-        ListNode l1 = initListNode(new int[]{9,9});
-        ListNode l2 = initListNode(new int[]{1});
+        ListNode l1 = initListNode(new int[]{2,4});
+        ListNode l2 = initListNode(new int[]{9,6});
         ListNode sum = addTwoNumbers(l1,l2);
-
         while(sum != null){
             System.out.print(sum.val+"->");
             sum = sum.next;
         }
-
-
 
     }
 
