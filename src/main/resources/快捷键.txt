@@ -1,0 +1,9 @@
+option+crtl+l   代码格式化
+option+enter    引入包
+crtl+shift+r    查找类文件
+crtl+h          全局查找内容
+crtl+t          查看接口的实现， 方法的实现
+ctrl+o          查看类方法和成员变量
+ctrl+shift+o    去掉多余未引用的包
+shift+option+m  将选中的代码抽取成一个方法
+
